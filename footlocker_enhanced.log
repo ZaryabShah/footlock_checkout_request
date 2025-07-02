@@ -1,0 +1,9 @@
+2025-07-02 05:35:38,170 - WARNING - Could not load config cookies: module 'config' has no attribute '_EnhancedFootlockerCheckout__attentive_id'
+2025-07-02 05:41:06,284 - WARNING - Could not load config cookies: module 'config' has no attribute '_EnhancedFootlockerCheckout__attentive_id'
+2025-07-02 05:41:09,541 - INFO - Getting cart status...
+2025-07-02 05:41:11,739 - ERROR - Failed to get cart status: 403
+2025-07-02 05:41:23,571 - WARNING - Could not load config cookies: module 'config' has no attribute '_EnhancedFootlockerCheckout__attentive_id'
+2025-07-02 05:41:52,131 - ERROR - Product key 'H7980100' not found in config
+2025-07-02 05:42:36,828 - WARNING - Could not load config cookies: module 'config' has no attribute '_EnhancedFootlockerCheckout__attentive_id'
+2025-07-02 05:42:48,050 - INFO - Checking availability for SKU: H7980100
+2025-07-02 05:42:49,778 - ERROR - Product not available: 403

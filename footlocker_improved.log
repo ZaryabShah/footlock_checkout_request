@@ -1,0 +1,9 @@
+2025-07-02 06:23:32,108 - INFO - Session initialized with cookies and headers
+2025-07-02 06:23:32,108 - INFO - Testing connection...
+2025-07-02 06:23:47,658 - INFO - Checking availability for SKU: S001AS9
+2025-07-02 06:23:49,719 - INFO - Product found: Unknown
+2025-07-02 06:24:01,967 - INFO - Getting cart information...
+2025-07-02 06:25:42,992 - INFO - Adding to cart: SKU=S001AS9, Size=04.0, Qty=1
+2025-07-02 06:25:42,992 - INFO - Checking availability for SKU: S001AS9
+2025-07-02 06:25:43,374 - INFO - Product found: Unknown
+2025-07-02 06:26:55,741 - INFO - Getting cart information...

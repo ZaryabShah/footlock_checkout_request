@@ -1,0 +1,674 @@
+curl ^"https://www.footlocker.com/zgw/carts/co-cart-aggregation-service/site/fl/cart/userInfo^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752021463^%^7C3^%^7CMCAAMB-1752021463^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751423863s^%^7CNONE^%^7CvVersion^%^7C5.5.0; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751417298734^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^0A^%^20^%^20^%^20^%^20^%^22H7980100-04.5^%^22^%^2C^%^0A^%^20^%^20^%^20^%^20^%^22H7980100-06.0^%^22^%^0A^%^5D^%^7D; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; ak_bmsc_fl_com-ssn=0bmyt9jA5uIUMBanOU5bJsdiQuGCBdV1RkeW36wyNm5xrfaJS1MrDlKTODuFsYbGwV6ay2fFfgWbgebQPa37WTqa8satOdNPBqlnqBLAxlWNIUC7gFBCRXxpMIjsC7hMGt7amrwbtkJiM8v6xyMEN2tvSIIKu0KYY6OjONU6mi6; ak_bmsc_fl_com=0bmyt9jA5uIUMBanOU5bJsdiQuGCBdV1RkeW36wyNm5xrfaJS1MrDlKTODuFsYbGwV6ay2fFfgWbgebQPa37WTqa8satOdNPBqlnqBLAxlWNIUC7gFBCRXxpMIjsC7hMGt7amrwbtkJiM8v6xyMEN2tvSIIKu0KYY6OjONU6mi6; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DCONTINUE^%^2526region^%^253DContactInformation-form^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DSUBMIT; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751419967; _cs_s=18.5.0.9.1751421772605; s_lv=1751419985055^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiMzk0YzIwY2EzYTBkN2ZjNSIsInRyIjoiMzE1Yzc0YThjMjg1NjI4MzU4Njg1YmI1YzRjNWU4YjQiLCJ0aSI6MTc1MTQxOTk4NTA2NywidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-315c74a8c285628358685bb5c4c5e8b4-394c20ca3a0d7fc5-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-394c20ca3a0d7fc5----1751419985067^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: 802117b0-56e4-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751419985508,^\^"id^\^":^\^"b5a565bfb2bb7412c3240729862cf991^\^",^\^"answers^\^":^[9,7^],^\^"duration^\^":98,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0bmyt9jA5uIUMBanOU5bJsdiQuGCBdV1RkeW36wyNm5xrfaJS1MrDlKTODuFsYbGwV6ay2fFfgWbgebQPa37WTqa8satOdNPBqlnqBLAxlWNIUC7gFBCRXxpMIjsC7hMGt7amrwbtkJiM8v6xyMEN2tvSIIKu0KYY6OjONU6mi6^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  --data-raw ^"^{^\^"firstName^\^":^\^"kazmi^\^",^\^"lastName^\^":^\^"shb^\^",^\^"email^\^":^\^"domgyrgpt^@gmail.com^\^",^\^"phone^\^":^\^"9452060458^\^",^\^"phoneCountry^\^":^\^"US^\^",^\^"payPalAlert^\^":false^}^"
+
+
+response was
+true
+
+
+than this
+
+curl ^"https://www.footlocker.com/zgw/address-verification/v0/address/verification^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752024788^%^7C3^%^7CMCAAMB-1752024788^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751427188s^%^7CNONE^%^7CvVersion^%^7C5.5.0^%^7CMCCIDH^%^7C606635771; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751419991087^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^5D^%^2C^%^22bc_id_cache^%^22^%^3A^%^20^%^22^%^7B^%^5C^%^22email^%^5C^%^22^%^3A1049865310^%^7D^%^22^%^2C^%^22bc_id^%^22^%^3A^%^201049865310^%^7D; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751420282; ak_bmsc_fl_com-ssn=0craqLd0rqcLJDgsew5MEhbcklOYAHgcPAtUOl10ejptWri4Jop1Ak72wAdxeSJm0HXo5sTl2UUvwL4j6gS8T2WUMJDRroJdUm0WkNpcSo6LIfMdR7zwo07qvnnD4SZszapuvyERTzK1pH6Qrh4Ji1CaNEQwAvePjMmbUJtFI37; ak_bmsc_fl_com=0craqLd0rqcLJDgsew5MEhbcklOYAHgcPAtUOl10ejptWri4Jop1Ak72wAdxeSJm0HXo5sTl2UUvwL4j6gS8T2WUMJDRroJdUm0WkNpcSo6LIfMdR7zwo07qvnnD4SZszapuvyERTzK1pH6Qrh4Ji1CaNEQwAvePjMmbUJtFI37; _cs_s=18.5.0.9.1751422089924; s_lv=1751420307944; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DSAVE^%^252520^%^252526^%^252520CONTINUE^%^2526region^%^253Dmain^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DBUTTON^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiNDY3Mjk3OWUxNGNkMzdiMCIsInRyIjoiNmZkYjNmYTk5MjQxYTBhN2E4ZjA0YjFiZWUzY2EzNTMiLCJ0aSI6MTc1MTQyMDMwNzk2MCwidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-6fdb3fa99241a0a7a8f04b1bee3ca353-4672979e14cd37b0-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-4672979e14cd37b0----1751420307960^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: 4096a780-56e5-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-functions-key: m663XzcEgqHJqzbq4JH6FrDIStLZh4FMUMAzXct09W6HAzFuozxPuA==^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751420308401,^\^"id^\^":^\^"b2ad67ecb1ca7002af8f183c37461c70^\^",^\^"answers^\^":^[3,3^],^\^"duration^\^":34.7,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0craqLd0rqcLJDgsew5MEhbcklOYAHgcPAtUOl10ejptWri4Jop1Ak72wAdxeSJm0HXo5sTl2UUvwL4j6gS8T2WUMJDRroJdUm0WkNpcSo6LIfMdR7zwo07qvnnD4SZszapuvyERTzK1pH6Qrh4Ji1CaNEQwAvePjMmbUJtFI37^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  --data-raw ^"^{^\^"country^\^":^{^\^"isocode^\^":^\^"US^\^",^\^"name^\^":^\^"US^\^"^},^\^"region^\^":^{^\^"isocodeShort^\^":^\^"VA^\^"^},^\^"line1^\^":^\^"1 Morris Rd^\^",^\^"line2^\^":^\^"^\^",^\^"postalCode^\^":^\^"23970-5627^\^",^\^"town^\^":^\^"South Hill^\^"^}^"
+
+
+response
+{
+    "decision": "Accepted",
+    "residential": true,
+    "recordType": "H",
+    "suggestedAddresses": [
+        {
+            "companyName": "",
+            "line1": "1 MORRIS RD",
+            "line2": "",
+            "town": "SOUTH HILL",
+            "region": {
+                "name": "VA",
+                "countryIso": "US",
+                "isocode": "US-VA",
+                "isocodeShort": "VA"
+            },
+            "postalCode": "23970-5627",
+            "country": {
+                "name": "United States",
+                "isocode": "US"
+            },
+            "shippingAddress": false,
+            "visibleInAddressBook": false,
+            "fpo": false
+        }
+    ]
+}
+
+
+than these 5 requests popped
+
+curl ^"https://www.footlocker.com/zgw/carts-experience/carts-experience-service/site/fl/cart/address^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752024788^%^7C3^%^7CMCAAMB-1752024788^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751427188s^%^7CNONE^%^7CvVersion^%^7C5.5.0^%^7CMCCIDH^%^7C606635771; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751419991087^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^5D^%^2C^%^22bc_id_cache^%^22^%^3A^%^20^%^22^%^7B^%^5C^%^22email^%^5C^%^22^%^3A1049865310^%^7D^%^22^%^2C^%^22bc_id^%^22^%^3A^%^201049865310^%^7D; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751420282; _cs_s=18.5.0.9.1751422089924; s_lv=1751420307944; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DSAVE^%^252520^%^252526^%^252520CONTINUE^%^2526region^%^253Dmain^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DBUTTON; ak_bmsc_fl_com-ssn=0aVPTuTkxDvmSTH4GbusNFJlI19FT3vCgPHwmC2B3Q3UO2BmwmfwKA0SU2X8tgeOFbCa2zHo9iw9DBEIsVvH6c9qUPEuUbY2pfwSvn7KXkhP6HcTpcU8BnJDDGX1ciSWU9fIzHRjhCWTr820YT3YlVNDJSVcDBREngBwzpiSJRh; ak_bmsc_fl_com=0aVPTuTkxDvmSTH4GbusNFJlI19FT3vCgPHwmC2B3Q3UO2BmwmfwKA0SU2X8tgeOFbCa2zHo9iw9DBEIsVvH6c9qUPEuUbY2pfwSvn7KXkhP6HcTpcU8BnJDDGX1ciSWU9fIzHRjhCWTr820YT3YlVNDJSVcDBREngBwzpiSJRh^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiOTNlNTRhOTQ5MTRjYzY4OCIsInRyIjoiZmU3MTllOTM0MTFlYzg4N2MwYWQ1NzJmMTQ0NTI2NzYiLCJ0aSI6MTc1MTQyMDMxMDYyNywidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-fe719e93411ec887c0ad572f14452676-93e54a94914cc688-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-93e54a94914cc688----1751420310627^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: 422d9b30-56e5-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751420311067,^\^"id^\^":^\^"9f03ed7700663c908501d5fdce20b546^\^",^\^"answers^\^":^[1,2^],^\^"duration^\^":40.9,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0aVPTuTkxDvmSTH4GbusNFJlI19FT3vCgPHwmC2B3Q3UO2BmwmfwKA0SU2X8tgeOFbCa2zHo9iw9DBEIsVvH6c9qUPEuUbY2pfwSvn7KXkhP6HcTpcU8BnJDDGX1ciSWU9fIzHRjhCWTr820YT3YlVNDJSVcDBREngBwzpiSJRh^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  --data-raw ^"^{^\^"countryIsocode^\^":^\^"US^\^",^\^"firstName^\^":^\^"kazmi^\^",^\^"lastName^\^":^\^"shb^\^",^\^"isMilitary^\^":false,^\^"LoqateSearch^\^":^\^"^\^",^\^"regionIsocode^\^":^\^"US-VA^\^",^\^"line1^\^":^\^"1 Morris Rd^\^",^\^"line2^\^":^\^"^\^",^\^"postalCode^\^":^\^"23970-5627^\^",^\^"city^\^":^\^"South Hill^\^",^\^"regionIsocodeShort^\^":^\^"VA^\^",^\^"isShipping^\^":true,^\^"addressType^\^":^\^"H^\^",^\^"residential^\^":true^}^"
+
+
+
+curl ^"https://www.footlocker.com/zgw/carts/co-cart-aggregation-service/site/fl/cart/userInfo^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752024788^%^7C3^%^7CMCAAMB-1752024788^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751427188s^%^7CNONE^%^7CvVersion^%^7C5.5.0^%^7CMCCIDH^%^7C606635771; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751419991087^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^5D^%^2C^%^22bc_id_cache^%^22^%^3A^%^20^%^22^%^7B^%^5C^%^22email^%^5C^%^22^%^3A1049865310^%^7D^%^22^%^2C^%^22bc_id^%^22^%^3A^%^201049865310^%^7D; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751420282; _cs_s=18.5.0.9.1751422089924; s_lv=1751420307944; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DSAVE^%^252520^%^252526^%^252520CONTINUE^%^2526region^%^253Dmain^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DBUTTON; ak_bmsc_fl_com-ssn=0aeeFBJ3VmMm8IwQuGfN0giAV4fbxD9DQv5QhuSIXfW0HfNYGYjEFPTB9Sb1ftVzy4X2TeugI3ivFANbgrD7j4ZSx1vMJ5ljBVl4ja7HVfoWXF4u8NwjcuzmtdXBbRlxL56AMPE414F7adQIPh2e044skmWcq0Lvpmq69C0v2P3; ak_bmsc_fl_com=0aeeFBJ3VmMm8IwQuGfN0giAV4fbxD9DQv5QhuSIXfW0HfNYGYjEFPTB9Sb1ftVzy4X2TeugI3ivFANbgrD7j4ZSx1vMJ5ljBVl4ja7HVfoWXF4u8NwjcuzmtdXBbRlxL56AMPE414F7adQIPh2e044skmWcq0Lvpmq69C0v2P3^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiYmZlYzgyYjI5NWI1Y2Q1NyIsInRyIjoiZDJiNTk0MjRiNGYwYmNkMGQ1YmM3YTk3M2M3YTQyMmYiLCJ0aSI6MTc1MTQyMDMxMjUzMSwidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-d2b59424b4f0bcd0d5bc7a973c7a422f-bfec82b295b5cd57-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-bfec82b295b5cd57----1751420312531^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: 434ffb20-56e5-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751420312995,^\^"id^\^":^\^"9c05253502d77442749cfeb17d37017e^\^",^\^"answers^\^":^[2,2^],^\^"duration^\^":35.4,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0aeeFBJ3VmMm8IwQuGfN0giAV4fbxD9DQv5QhuSIXfW0HfNYGYjEFPTB9Sb1ftVzy4X2TeugI3ivFANbgrD7j4ZSx1vMJ5ljBVl4ja7HVfoWXF4u8NwjcuzmtdXBbRlxL56AMPE414F7adQIPh2e044skmWcq0Lvpmq69C0v2P3^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  --data-raw ^"^{^\^"firstName^\^":^\^"kazmi^\^",^\^"lastName^\^":^\^"shb^\^",^\^"email^\^":^\^"domgyrgpt^@gmail.com^\^",^\^"phone^\^":^\^"9452060458^\^",^\^"phoneCountry^\^":^\^"US^\^",^\^"payPalAlert^\^":false^}^"
+
+
+
+
+
+curl ^"https://www.footlocker.com/zgw/carts-experience/carts-experience-service/site/fl/cart/deliveryMode^" ^
+  -X ^"PUT^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752024788^%^7C3^%^7CMCAAMB-1752024788^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751427188s^%^7CNONE^%^7CvVersion^%^7C5.5.0^%^7CMCCIDH^%^7C606635771; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751419991087^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^5D^%^2C^%^22bc_id_cache^%^22^%^3A^%^20^%^22^%^7B^%^5C^%^22email^%^5C^%^22^%^3A1049865310^%^7D^%^22^%^2C^%^22bc_id^%^22^%^3A^%^201049865310^%^7D; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751420282; _cs_s=18.5.0.9.1751422089924; s_lv=1751420307944; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DSAVE^%^252520^%^252526^%^252520CONTINUE^%^2526region^%^253Dmain^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DBUTTON; ak_bmsc_fl_com-ssn=0aeeFBJ3VmMm8IwQuGfN0giAV4fbxD9DQv5QhuSIXfW0HfNYGYjEFPTB9Sb1ftVzy4X2TeugI3ivFANbgrD7j4ZSx1vMJ5ljBVl4ja7HVfoWXF4u8NwjcuzmtdXBbRlxL56AMPE414F7adQIPh2e044skmWcq0Lvpmq69C0v2P3; ak_bmsc_fl_com=0aeeFBJ3VmMm8IwQuGfN0giAV4fbxD9DQv5QhuSIXfW0HfNYGYjEFPTB9Sb1ftVzy4X2TeugI3ivFANbgrD7j4ZSx1vMJ5ljBVl4ja7HVfoWXF4u8NwjcuzmtdXBbRlxL56AMPE414F7adQIPh2e044skmWcq0Lvpmq69C0v2P3^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiOTM1ZDViYTIzMTRhODg4YyIsInRyIjoiZWY4MmMwYWM2ZGNjMWZmZmIxYWViMGYwMTA3MmJmMTUiLCJ0aSI6MTc1MTQyMDMxMjU1MCwidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-ef82c0ac6dcc1fffb1aeb0f01072bf15-935d5ba2314a888c-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-935d5ba2314a888c----1751420312550^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: 43530860-56e5-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751420313031,^\^"id^\^":^\^"1aa981d0cb5183db790a2c240ce27720^\^",^\^"answers^\^":^[1,2^],^\^"duration^\^":22.6,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0aeeFBJ3VmMm8IwQuGfN0giAV4fbxD9DQv5QhuSIXfW0HfNYGYjEFPTB9Sb1ftVzy4X2TeugI3ivFANbgrD7j4ZSx1vMJ5ljBVl4ja7HVfoWXF4u8NwjcuzmtdXBbRlxL56AMPE414F7adQIPh2e044skmWcq0Lvpmq69C0v2P3^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  --data-raw ^"^{^\^"selectedDeliveryModeCode^\^":^\^"standard^\^",^\^"regionIsocodeShort^\^":^\^"VA^\^"^}^"
+
+
+than this after saving billing address
+
+curl ^"https://www.footlocker.com/zgw/address-verification/v0/address/verification^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752024788^%^7C3^%^7CMCAAMB-1752024788^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751427188s^%^7CNONE^%^7CvVersion^%^7C5.5.0^%^7CMCCIDH^%^7C606635771; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751419991087^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^5D^%^2C^%^22bc_id_cache^%^22^%^3A^%^20^%^22^%^7B^%^5C^%^22email^%^5C^%^22^%^3A1049865310^%^7D^%^22^%^2C^%^22bc_id^%^22^%^3A^%^201049865310^%^7D; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751420282; RoktRecogniser=69f3a771-6066-4c58-942f-717aaea48520; RoktSessionId-3222478387127028431=b30e001b-15bd-4b30-9e01-4491c09b0000^|false^|1751422116268; RoktSelectionCount-b30e001b-15bd-4b30-9e01-4491c09b0000=1; ak_bmsc_fl_com-ssn=0KET4dieqgVGWiB4nHSOrYhzII1JSfBddl3C9XEM24ykX2Z5suhOE82syz7aFazxIALdTiClmYrlUyElIZ2XkpSQncv93E4L3U9UylYFq3tIU6zxExPhohNB7SPbv15uC36V1kca82p9SWFk7HuIM1SaPs4TBCFqFKiB1WI6RM3y; ak_bmsc_fl_com=0KET4dieqgVGWiB4nHSOrYhzII1JSfBddl3C9XEM24ykX2Z5suhOE82syz7aFazxIALdTiClmYrlUyElIZ2XkpSQncv93E4L3U9UylYFq3tIU6zxExPhohNB7SPbv15uC36V1kca82p9SWFk7HuIM1SaPs4TBCFqFKiB1WI6RM3y; _cs_s=18.5.0.9.1751422667177; s_lv=1751420872339; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DSAVE^%^252520BILLING^%^252520ADDRESS^%^2526region^%^253Dmain^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DSUBMIT^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiYmQ5YTMzNTYzMDM2M2MwYiIsInRyIjoiNGMyMmUwNWFiMjVmMjQyYWU1NmYyMGMzYjAxMzEyMDUiLCJ0aSI6MTc1MTQyMDg3MjM1NSwidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-4c22e05ab25f242ae56f20c3b0131205-bd9a335630363c0b-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-bd9a335630363c0b----1751420872355^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: 90fe5820-56e6-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-functions-key: m663XzcEgqHJqzbq4JH6FrDIStLZh4FMUMAzXct09W6HAzFuozxPuA==^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751420872796,^\^"id^\^":^\^"5cc0017705f91d5f3b3032574f06e681^\^",^\^"answers^\^":^[8,4^],^\^"duration^\^":118.6,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0KET4dieqgVGWiB4nHSOrYhzII1JSfBddl3C9XEM24ykX2Z5suhOE82syz7aFazxIALdTiClmYrlUyElIZ2XkpSQncv93E4L3U9UylYFq3tIU6zxExPhohNB7SPbv15uC36V1kca82p9SWFk7HuIM1SaPs4TBCFqFKiB1WI6RM3y^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  --data-raw ^"^{^\^"country^\^":^{^\^"isocode^\^":^\^"US^\^",^\^"name^\^":^\^"US^\^"^},^\^"region^\^":^{^\^"isocodeShort^\^":^\^"VA^\^"^},^\^"line1^\^":^\^"1 Morris Rd^\^",^\^"line2^\^":^\^"^\^",^\^"postalCode^\^":^\^"23970-5627^\^",^\^"town^\^":^\^"South Hill^\^"^}^"
+
+
+than again this request
+curl ^"https://www.footlocker.com/zgw/carts-experience/carts-experience-service/site/fl/cart/address^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752024788^%^7C3^%^7CMCAAMB-1752024788^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751427188s^%^7CNONE^%^7CvVersion^%^7C5.5.0^%^7CMCCIDH^%^7C606635771; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751419991087^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^5D^%^2C^%^22bc_id_cache^%^22^%^3A^%^20^%^22^%^7B^%^5C^%^22email^%^5C^%^22^%^3A1049865310^%^7D^%^22^%^2C^%^22bc_id^%^22^%^3A^%^201049865310^%^7D; RoktRecogniser=69f3a771-6066-4c58-942f-717aaea48520; RoktSessionId-3222478387127028431=b30e001b-15bd-4b30-9e01-4491c09b0000^|false^|1751422116268; RoktSelectionCount-b30e001b-15bd-4b30-9e01-4491c09b0000=1; _cs_s=18.5.0.9.1751422667177; s_lv=1751420872339; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DSAVE^%^252520BILLING^%^252520ADDRESS^%^2526region^%^253Dmain^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DSUBMIT; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751420872; ak_bmsc_fl_com-ssn=0GCdnj28Wj9xz21gp2DLdkeep5tdh3PAmaWpQfubd4GVsrbpCJXT0JNrXSv7LxUsGEcTgmiYKFGo7ICqF7uD4Rcu49StVJIO0gDoU4BQdYTAlYI7dWeaG7HbvccSWXBA1glTck5kfv7mPw8Hk6PiQQuj3oOSoklRgzazIBowAcKd; ak_bmsc_fl_com=0GCdnj28Wj9xz21gp2DLdkeep5tdh3PAmaWpQfubd4GVsrbpCJXT0JNrXSv7LxUsGEcTgmiYKFGo7ICqF7uD4Rcu49StVJIO0gDoU4BQdYTAlYI7dWeaG7HbvccSWXBA1glTck5kfv7mPw8Hk6PiQQuj3oOSoklRgzazIBowAcKd^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiNDgyOGJkYzE2M2QyNDI5ZCIsInRyIjoiNDI3ZWU2MDRlYjhmNzg5YTg4N2M2YjJjOWIzYTIzYzIiLCJ0aSI6MTc1MTQyMDg3NDg3OSwidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-427ee604eb8f789a887c6b2c9b3a23c2-4828bdc163d2429d-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-4828bdc163d2429d----1751420874879^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: 927fa0f0-56e6-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751420875320,^\^"id^\^":^\^"2be8476bd5105104070007ec8c0723d4^\^",^\^"answers^\^":^[6,1^],^\^"duration^\^":53.3,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0GCdnj28Wj9xz21gp2DLdkeep5tdh3PAmaWpQfubd4GVsrbpCJXT0JNrXSv7LxUsGEcTgmiYKFGo7ICqF7uD4Rcu49StVJIO0gDoU4BQdYTAlYI7dWeaG7HbvccSWXBA1glTck5kfv7mPw8Hk6PiQQuj3oOSoklRgzazIBowAcKd^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  --data-raw ^"^{^\^"countryIsocode^\^":^\^"US^\^",^\^"firstName^\^":^\^"Arden^\^",^\^"lastName^\^":^\^"Volkman^\^",^\^"isMilitary^\^":false,^\^"LoqateSearch^\^":^\^"^\^",^\^"regionIsocode^\^":^\^"US-VA^\^",^\^"line1^\^":^\^"1 Morris Rd^\^",^\^"line2^\^":^\^"^\^",^\^"postalCode^\^":^\^"23970-5627^\^",^\^"city^\^":^\^"South Hill^\^",^\^"regionIsocodeShort^\^":^\^"VA^\^",^\^"isBilling^\^":true,^\^"isShipping^\^":false,^\^"addressType^\^":^\^"H^\^",^\^"residential^\^":true^}^"
+
+now it returned this
+
+{
+    "appliedCoupons": [],
+    "appliedOrderPromotions": [],
+    "appliedProductPromotions": [],
+    "billingAddress": {
+        "addressType": "NORMAL",
+        "city": "South Hill",
+        "countryIsocode": "US",
+        "firstName": "Arden",
+        "isBilling": true,
+        "isShipping": false,
+        "lastName": "Volkman",
+        "line1": "1 Morris Rd",
+        "line2": "",
+        "orderPricing": false,
+        "postalCode": "23970-5627",
+        "regionIsocode": "US-VA",
+        "regionIsocodeShort": "VA",
+        "residential": true,
+        "saveInAddressBook": false,
+        "setAsDefaultBilling": false,
+        "setAsDefaultShipping": false
+    },
+    "cartId": "73aa9178-577a-4a8f-aa32-c343ddd701f4",
+    "cartItems": [
+        {
+            "appliedPromotions": [],
+            "backorderFlag": false,
+            "cartItemId": "379940cd-b2d0-3514-b69a-3fc7810c76c7",
+            "colorway": "White/Purple",
+            "deliveryModes": [
+                {
+                    "deliveryCost": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$8.99",
+                        "value": 8.99
+                    },
+                    "deliveryModeCode": "standard",
+                    "description": "3-5 Business Days-Standard Ground",
+                    "estimatedDay": "2025-07-10T19:00:00Z",
+                    "freeShipping": false,
+                    "name": "3-5 Business Days - Standard",
+                    "quantityAmount": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$0.00",
+                        "value": 0.00
+                    },
+                    "rush": false,
+                    "selected": true
+                },
+                {
+                    "deliveryCost": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$17.99",
+                        "value": 17.99
+                    },
+                    "deliveryModeCode": "express",
+                    "description": "2 Business Days-Express -(Ships today if ordered by 1PM CST)",
+                    "estimatedDay": "2025-07-04T13:00:00Z",
+                    "freeShipping": false,
+                    "name": "2 Business Days",
+                    "quantityAmount": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$0.00",
+                        "value": 0.00
+                    },
+                    "rush": true,
+                    "selected": false
+                },
+                {
+                    "deliveryCost": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$27.99",
+                        "value": 27.99
+                    },
+                    "deliveryModeCode": "nextday",
+                    "description": "1 Business Day-Next Day (Ships today if ordered by 1PM CST)",
+                    "estimatedDay": "2025-07-03T19:00:00Z",
+                    "freeShipping": false,
+                    "name": "1 Business Day",
+                    "quantityAmount": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$0.00",
+                        "value": 0.00
+                    },
+                    "rush": true,
+                    "selected": false
+                }
+            ],
+            "excludedFromDiscount": true,
+            "freeShipping": false,
+            "fulfillBy": "0310699",
+            "fulfillmentType": "JC",
+            "hasShippingRestrictions": false,
+            "hasVendorShippingPrice": false,
+            "itemType": "ILAU",
+            "launchProduct": false,
+            "locationType": "WHSE",
+            "mobileBarCode": "6203009204045",
+            "name": "Jordan Air Jordan 5 Retro OG - Boys\u0027 Grade School",
+            "poExpectedDate": "",
+            "presell": false,
+            "priceData": {
+                "currencyIso": "USD",
+                "formattedOriginalPrice": "$160.00",
+                "formattedValue": "$160.00",
+                "originalPrice": 160.00,
+                "value": 160.00
+            },
+            "productPriceVariation": false,
+            "quantity": 1,
+            "selectedSizeGroup": "",
+            "selectedSizeValue": "",
+            "shippingRestricted": false,
+            "size": "04.5",
+            "sku": "H7980100",
+            "vendor": "",
+            "width": "",
+            "discountedTotalAmount": {
+                "currencyIso": "USD",
+                "formattedValue": "$168.48",
+                "value": 168.48
+            },
+            "discountedSubTotalAmount": {
+                "currencyIso": "USD",
+                "formattedValue": "$160.00",
+                "value": 160.00
+            },
+            "subTotalAmount": {
+                "currencyIso": "USD",
+                "formattedValue": "$160.00",
+                "value": 160.00
+            }
+        },
+        {
+            "appliedPromotions": [],
+            "backorderFlag": false,
+            "cartItemId": "47f7f060-9a52-3dd7-b052-99fe1c690003",
+            "colorway": "White/Purple",
+            "deliveryModes": [
+                {
+                    "deliveryCost": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$8.99",
+                        "value": 8.99
+                    },
+                    "deliveryModeCode": "standard",
+                    "description": "3-5 Business Days-Standard Ground",
+                    "estimatedDay": "2025-07-10T19:00:00Z",
+                    "freeShipping": false,
+                    "name": "3-5 Business Days - Standard",
+                    "quantityAmount": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$0.00",
+                        "value": 0.00
+                    },
+                    "rush": false,
+                    "selected": true
+                },
+                {
+                    "deliveryCost": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$17.99",
+                        "value": 17.99
+                    },
+                    "deliveryModeCode": "express",
+                    "description": "2 Business Days-Express -(Ships today if ordered by 1PM CST)",
+                    "estimatedDay": "2025-07-04T13:00:00Z",
+                    "freeShipping": false,
+                    "name": "2 Business Days",
+                    "quantityAmount": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$0.00",
+                        "value": 0.00
+                    },
+                    "rush": true,
+                    "selected": false
+                },
+                {
+                    "deliveryCost": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$27.99",
+                        "value": 27.99
+                    },
+                    "deliveryModeCode": "nextday",
+                    "description": "1 Business Day-Next Day (Ships today if ordered by 1PM CST)",
+                    "estimatedDay": "2025-07-03T19:00:00Z",
+                    "freeShipping": false,
+                    "name": "1 Business Day",
+                    "quantityAmount": {
+                        "currencyIso": "USD",
+                        "formattedValue": "$0.00",
+                        "value": 0.00
+                    },
+                    "rush": true,
+                    "selected": false
+                }
+            ],
+            "excludedFromDiscount": true,
+            "freeShipping": false,
+            "fulfillBy": "0310699",
+            "fulfillmentType": "JC",
+            "hasShippingRestrictions": false,
+            "hasVendorShippingPrice": false,
+            "itemType": "ILAU",
+            "launchProduct": false,
+            "locationType": "WHSE",
+            "mobileBarCode": "6203009204060",
+            "name": "Jordan Air Jordan 5 Retro OG - Boys\u0027 Grade School",
+            "poExpectedDate": "",
+            "presell": false,
+            "priceData": {
+                "currencyIso": "USD",
+                "formattedOriginalPrice": "$160.00",
+                "formattedValue": "$160.00",
+                "originalPrice": 160.00,
+                "value": 160.00
+            },
+            "productPriceVariation": false,
+            "quantity": 3,
+            "selectedSizeGroup": "",
+            "selectedSizeValue": "",
+            "shippingRestricted": false,
+            "size": "06.0",
+            "sku": "H7980100",
+            "vendor": "",
+            "width": "",
+            "discountedTotalAmount": {
+                "currencyIso": "USD",
+                "formattedValue": "$505.44",
+                "value": 505.44
+            },
+            "discountedSubTotalAmount": {
+                "currencyIso": "USD",
+                "formattedValue": "$480.00",
+                "value": 480.00
+            },
+            "subTotalAmount": {
+                "currencyIso": "USD",
+                "formattedValue": "$480.00",
+                "value": 480.00
+            }
+        }
+    ],
+    "cartMerged": false,
+    "cartPayments": {},
+    "deliveryCost": {
+        "currencyIso": "USD",
+        "formattedValue": "$8.99",
+        "value": 8.99
+    },
+    "deliveryModeOptions": [
+        {
+            "deliveryCost": {
+                "currencyIso": "USD",
+                "formattedValue": "$8.99",
+                "value": 8.99
+            },
+            "deliveryModeCode": "standard",
+            "description": "3-5 Business Days-Standard Ground",
+            "estimatedDay": "2025-07-10T19:00:00Z",
+            "freeShipping": false,
+            "name": "3-5 Business Days - Standard",
+            "rush": false,
+            "selected": true
+        },
+        {
+            "deliveryCost": {
+                "currencyIso": "USD",
+                "formattedValue": "$17.99",
+                "value": 17.99
+            },
+            "deliveryModeCode": "express",
+            "description": "2 Business Days-Express -(Ships today if ordered by 1PM CST)",
+            "estimatedDay": "2025-07-04T13:00:00Z",
+            "freeShipping": false,
+            "name": "2 Business Days",
+            "rush": true,
+            "selected": false
+        },
+        {
+            "deliveryCost": {
+                "currencyIso": "USD",
+                "formattedValue": "$27.99",
+                "value": 27.99
+            },
+            "deliveryModeCode": "nextday",
+            "description": "1 Business Day-Next Day (Ships today if ordered by 1PM CST)",
+            "estimatedDay": "2025-07-03T19:00:00Z",
+            "freeShipping": false,
+            "name": "1 Business Day",
+            "rush": true,
+            "selected": false
+        }
+    ],
+    "eligiblePaymentTypesForCart": [
+        "applepay",
+        "CREDITCARD",
+        "GIFTCARD",
+        "klarna_account",
+        "PAYPAL",
+        "PAYPALPAYLATER",
+        "paywithgoogle"
+    ],
+    "ineligiblePayments": {},
+    "paymentInstallments": {
+        "installment1": 170.72,
+        "installment2": 170.73,
+        "installment3": 170.73,
+        "installment4": 170.73
+    },
+    "pickUpPersonInfo": {},
+    "selectedDeliveryModeCode": "standard",
+    "serviceMessage": {
+        "serviceErrors": []
+    },
+    "shippingAddress": {
+        "addressType": "NORMAL",
+        "city": "South Hill",
+        "countryIsocode": "US",
+        "firstName": "kazmi",
+        "isBilling": false,
+        "isShipping": true,
+        "lastName": "shb",
+        "line1": "1 Morris Rd",
+        "line2": "",
+        "orderPricing": false,
+        "postalCode": "23970-5627",
+        "regionIsocode": "US-VA",
+        "regionIsocodeShort": "VA",
+        "residential": true,
+        "saveInAddressBook": false,
+        "setAsDefaultBilling": false,
+        "setAsDefaultShipping": false
+    },
+    "subTotal": {
+        "currencyIso": "USD",
+        "formattedValue": "$640.00",
+        "value": 640.00
+    },
+    "subTotalWithTax": {
+        "currencyIso": "USD",
+        "formattedValue": "$640.00",
+        "value": 640.00
+    },
+    "totalBalanceWithTax": {
+        "currencyIso": "USD",
+        "formattedValue": "$682.91",
+        "value": 682.91
+    },
+    "totalBalanceWithoutTax": {
+        "currencyIso": "USD",
+        "formattedValue": "$648.99",
+        "value": 648.99
+    },
+    "containsGiftCard": false,
+    "totalDiscounts": {
+        "currencyIso": "USD",
+        "formattedValue": "$0.00",
+        "value": 0.00
+    },
+    "totalPrice": {
+        "currencyIso": "USD",
+        "formattedValue": "$648.99",
+        "value": 648.99
+    },
+    "totalPriceWithTax": {
+        "currencyIso": "USD",
+        "formattedValue": "$682.91",
+        "value": 682.91
+    },
+    "totalTax": {
+        "currencyIso": "USD",
+        "formattedValue": "$33.92",
+        "value": 33.92
+    },
+    "totalUnitCount": 4,
+    "user": {
+        "email": "domgyrgpt@gmail.com",
+        "firstName": "kazmi",
+        "id": "72700cc4-e54b-4c67-aff0-787290390b59",
+        "lastName": "shb",
+        "phone": "9452060458",
+        "phoneCountry": "US",
+        "type": "GUEST"
+    },
+    "cartEligibleForDiscount": false,
+    "status": "ACTIVE",
+    "shippingSameAsBillingAddress": false,
+    "unbalancedBOGO": false
+}
+
+
+than finally for ordering
+
+curl ^"https://www.footlocker.com/zgw/carts/co-cart-aggregation-service/site/fl/cart/placeOrder^" ^
+  -H ^"accept: application/json^" ^
+  -H ^"accept-language: undefined^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"at_check=true; AMCVS_40A3741F578E26BA7F000101^%^40AdobeOrg=1; ConstructorioID_client_id=6da697d4-eb87-4a38-88a9-3d3ed8349f26; s_pr_tbe65=1751392859985; s_cc=true; ZGWID=eyJhbGciOiJIUzUxMiJ9.eyJndWVzdElkIjoiNzI3MDBjYzQtZTU0Yi00YzY3LWFmZjAtNzg3MjkwMzkwYjU5IiwiaWF0IjoxNzUxMzkyODYzLCJleHAiOjE3ODI5Mjg4NjN9.Stn6drhKgHOmk3nUSNVk3CmtDTnP1aaVsZgkv-mAeeeOzyU8JLqdiWVf0ih_AApIqB91Ae8vjLJhfChfoU2Scg; _crbx=4PiUDH9FS4WukLpOvrO4FQ; _ga=GA1.1.1284347224.1751392866; _cs_c=0; BVBRANDID=7a13390f-2788-4eee-a5eb-e7e2112c84fd; ConstructorioID_session=^{'sessionId':1^%^2C'lastTime':1751392866644^}; ConstructorioID_session_id=1; BVImplmain_site=8001; bluecoreNV=true; IR_gbd=footlocker.com; __attentive_id=f17dd50c362249df893c13d61700de7a; __attentive_cco=1751392872826; IR_PI=60730a94-56a5-11f0-81d4-d9f03ed1929c^%^7C1751392871230; termsofuse_consentv2=true; __attentive_dv=1; s_pr_tbe66=1751392880833; styliticsWidgetSession=8d779680-6654-4179-950f-9996b35d38d7; s_pr_tbe67=1751392896605; s_pr_tbe68=1751392906996; rskxRunCookie=0; rCookie=ol01sjvnigevtk6b65lehmcku4d8v; JSESSIONID=9164b9cb-8329-417a-be00-ce81712c81d7; affinity=^\^"77553cf37f6b410f^\^"; mbox=session^#49c272e61e0b404294619eaeb882d3e6^#1751419378^|PC^#49c272e61e0b404294619eaeb882d3e6.38_0^#1814662319; _cs_id=5b6b067c-15c4-aec2-cc69-03f713e667bf.1751392866.2.1751417518.1751413523.1750451311.1785556866194.1.x; IR_11068=1751417520258^%^7C2193747^%^7C1751417520258^%^7C^%^7C; cto_bundle=JTDbql9hMGU5eXdSOHFEU2UyS1ZITVFYV1Rqa21TY1ZGNklIb1FjTjdxNHdzelIlMkJieXRFQVZLT0ZzMDJNd0w3WFBHeFBNck4xMVZsWkJteTNNdSUyRlZCYlRzcHZhUE5ydzhZSFprck9uYjdJV0xVaE5yUldBNkpuJTJCa1VGZGlZb295JTJGWDJQQ0FJcmtFcUM4QkZkaW9ibldJQVEwYnRqd05XYWxMR04xZmZCRzV3RzM4TGlUOWNjdUFwRmpQUllHR1RkWW5YZDloMEJYYWtHbGhoM2ltaUl5RmtHZlElM0QlM0Q; _uetsid=5eced83056a511f0b6c28520e5d73191; _uetvid=5ecee1d056a511f0a6c6f153d582705e; _attn_=eyJ1Ijoie1wiY29cIjoxNzUxMzkyODcyODI0LFwidW9cIjoxNzUxMzkyODcyODI0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcImYxN2RkNTBjMzYyMjQ5ZGY4OTNjMTNkNjE3MDBkZTdhXCJ9Iiwic2VzIjoie1widmFsXCI6XCI2MmU5MzYxMzk2ZDE0ZDBhOGE3NmUyNTVkNjA3ZGI2N1wiLFwidW9cIjoxNzUxNDE3NTI0NjY4LFwiY29cIjoxNzUxNDE3NTI0NjY4LFwibWFcIjowLjAyMDgzMzMzMzMzMzMzMzMzMn0ifQ==; lastRskxRun=1751417528911; s_lv_s=Less^%^20than^%^201^%^20day; _cs_mk_aa=0.006444516179438309_1751419813755; _ga_XYCM3QJRK1=GS2.1.s1751419836^$o4^$g0^$t1751419836^$j60^$l0^$h0; attntv_mstore_email=domgyrgpt^@gmail.com:0; AMCV_40A3741F578E26BA7F000101^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20271^%^7CMCMID^%^7C75815063124236325170672623285627760182^%^7CMCAAMLH-1752024788^%^7C3^%^7CMCAAMB-1752024788^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1751427188s^%^7CNONE^%^7CvVersion^%^7C5.5.0^%^7CMCCIDH^%^7C606635771; mp_footlocker_mixpanel=^%^7B^%^22distinct_id^%^22^%^3A^%^20^%^22197c7265983553-0f643b3e52d8ea-26011151-e1000-197c726598413c9^%^22^%^2C^%^22bc_persist_updated^%^22^%^3A^%^201751419991087^%^2C^%^22event_lang^%^22^%^3A^%^20^%^22en^%^22^%^2C^%^22is_sku_excluded^%^22^%^3A^%^20true^%^2C^%^22carted_product_ids^%^22^%^3A^%^20^%^5B^%^5D^%^2C^%^22bc_id_cache^%^22^%^3A^%^20^%^22^%^7B^%^5C^%^22email^%^5C^%^22^%^3A1049865310^%^7D^%^22^%^2C^%^22bc_id^%^22^%^3A^%^201049865310^%^7D; RoktRecogniser=69f3a771-6066-4c58-942f-717aaea48520; RoktSessionId-3222478387127028431=b30e001b-15bd-4b30-9e01-4491c09b0000^|false^|1751422116268; RoktSelectionCount-b30e001b-15bd-4b30-9e01-4491c09b0000=1; _gcl_au=1.1.534519834.1751392867.325548796.1751419968.1751420872; ak_bmsc_fl_com-ssn=0FBbv4ocTCGDbbtgsc9ZuKiPavmr4JBrnLFFXnLSXHnhObXULyShhReDGlMW5nWhbjOYeOJGX7oIgTvbCXfvWJrFzQEFCwgCDkDkMlfbtoVib1avEPdX9JTYpsaCm1BXS5Ag7znQWO28YUykr3V7vPIziMUOHD3FNAcGPgung5Uh; ak_bmsc_fl_com=0FBbv4ocTCGDbbtgsc9ZuKiPavmr4JBrnLFFXnLSXHnhObXULyShhReDGlMW5nWhbjOYeOJGX7oIgTvbCXfvWJrFzQEFCwgCDkDkMlfbtoVib1avEPdX9JTYpsaCm1BXS5Ag7znQWO28YUykr3V7vPIziMUOHD3FNAcGPgung5Uh; _cs_s=18.5.0.9.1751423140146; s_lv=1751421350697; s_sq=footlockerglobalprod^%^3D^%^2526c.^%^2526a.^%^2526activitymap.^%^2526page^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526link^%^253DPLACE^%^252520ORDER^%^2526region^%^253Dmain^%^2526pageIDType^%^253D1^%^2526.activitymap^%^2526.a^%^2526.c^%^2526pid^%^253Dfl^%^25253A^%^252520w^%^25253A^%^252520checkout^%^2526pidt^%^253D1^%^2526oid^%^253Dfunctiont0^%^252528^%^252529^%^25257B^%^25257D^%^2526oidt^%^253D2^%^2526ot^%^253DBUTTON^" ^
+  -H ^"newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI2ODQxMjUiLCJhcCI6IjY1NTU1OTQxMSIsImlkIjoiMjIxNmY0NDdmODQzZDI2YyIsInRyIjoiM2Q0M2MzZDAyZjhlOTYyZmEzNjk0ODM1YzlmYzBlYmQiLCJ0aSI6MTc1MTQyMTM1MDcyMCwidGsiOiIzNjcxMDc3In19^" ^
+  -H ^"origin: https://www.footlocker.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://www.footlocker.com/checkout^" ^
+  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"traceparent: 00-3d43c3d02f8e962fa3694835c9fc0ebd-2216f447f843d26c-01^" ^
+  -H ^"tracestate: 3671077^@nr=0-1-2684125-655559411-2216f447f843d26c----1751421350720^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
+  -H ^"x-api-lang: en-US^" ^
+  -H ^"x-api-simulation: undefined^" ^
+  -H ^"x-fl-request-id: ae1f3400-56e7-11f0-883b-e37939aa4d56^" ^
+  -H ^"x-flgw-channel-info: WEB^" ^
+  -H ^"x-kpsdk-cd: ^{^\^"workTime^\^":1751421351166,^\^"id^\^":^\^"f068c1a725a975e2e00903f197ddcdb6^\^",^\^"answers^\^":^[3,2^],^\^"duration^\^":29.9,^\^"d^\^":-439,^\^"st^\^":1751392861410,^\^"rst^\^":1751392860971^}^" ^
+  -H ^"x-kpsdk-ct: 0FBbv4ocTCGDbbtgsc9ZuKiPavmr4JBrnLFFXnLSXHnhObXULyShhReDGlMW5nWhbjOYeOJGX7oIgTvbCXfvWJrFzQEFCwgCDkDkMlfbtoVib1avEPdX9JTYpsaCm1BXS5Ag7znQWO28YUykr3V7vPIziMUOHD3FNAcGPgung5Uh^" ^
+  -H ^"x-kpsdk-v: j-1.1.0^" ^
+  -H ^"x-mobile-device: false^" ^
+  --data-raw ^"^{^\^"payment^\^":^{^\^"ccPaymentInfo^\^":^{^\^"encryptedCardNumber^\^":^\^"adyenjs_0_1_25^$jddjNJjzY/d5SlKY/vTCcw7F5XdYTbY8Z1AJf68lRCEwu3lEpFZlMxePe6seJLGISLunc8NYtjOCEg2Aibwv+OMDbOaysygS1cAQLWg/t6tlEiyWsP9dGfqvItla/mITmuqnbftD1rWlW7IddusuUYtp3+DhKsHeoNBduHMdZIHR8sKzy1KucR4DXD5lSo2y78GGQBQCGr+KWYSipejNqsXdwBJFMW0V2eMKGHsV4/oqL13Mkd5YueMOiuSTaJKiIxmOig1eToLNFzaelQcMVG8kRz48xRCA6QnBlFXHep80qeEmdG/vLLqnWpO83lkrzp4J4NI5d/MKsN8yndGJJw==^$fwK2+YdZBbxOppsguAj0zOlBn9tobcQ+iwMyPt+xOLDiyBihndNA4aycXH2AyP0YUeU/g1006Ydjma1djmuSC9jQ2AH+kLFWcTG8L3jmB/FkWdNCPrCC7sfFnsWzWmyfLXEEzpujZvpW3c0g+elY3A+GtZ6lxxEMkY7xpDKTq55OcoMxYNfKYphGbNKB4Mrnd2hjdo4ctKBNH4kRN3lWnYtxbp9zolNoTeh/Mtx3sEGc4AS8f59JMUxqARy3iabTEW/JhYLJy/Mx5yRDOQgxkLBZ0GxyZRKiDCVj9spLqo362NUhRz/deHZpZ6mESGHefG3oIzp2YAUTq9ow46Ay/QrGNvhXwwwDI38l/IXEV7dxRMkCxwR0DhjapUjTodzqIAhwEvsKSlyTlxUp+Ad7FEoY+qzzggz2mOfWkowrqHSh1OlLOTSpH4TQpqIXF3bki9MXe0hW5BbK9HF3yW5d2D6+7LdIUKi7XtDEtoOUXFVpEJIYqZUDvpTJBvOq8Z1ONRzmvWxcWxLeznQYYCq1QhUkVVTcpg0sgi0OYYyeir7fk0v9xEXDJYBLFj8lS8/gjPbgIJ0CMTGdc1oElGWYXxBCG1myyp6+uwsKKIP8Ia6+JZkl5yZ6hBsThIf9f+4sxuEhnf9jkVxj1hLx0VJBmvM6v5ODKlPCT/G+AmsJtqN/+0Kl2nC9Wv9BPrwtGqzeWZ22tW8mO+eIL/ucvm7iLFgmVL0YAQzCKfX80VW/1pXdd/gonLxcHPlYoHgKMqg/dYgIfMfMF7otCSvd+XzregPcY+UBFGMHKfXFMh7VQtCZAfaPn3Oj/efanDXY8ayQfURvaWqRK6YMDc/6EOVIAet7pxUuwU0H4HE0sbhehtporSsOrPNhv6i9C3n0CFL1/w30eWK8SJeNDNvDSQtrar2olsA8T+HXyAYX85qFvtjFzvXulYzKfVZjAPmY/RpfqKV9smCNJp2XcCI=^\^",^\^"encryptedExpiryMonth^\^":^\^"adyenjs_0_1_25^$NFVNk5cLPGKFNiklcRtL0alozWEkto7a56xvwKycNEy73iK14Kuwm1VLAqQhw3K5za+HYvSBt5TUVMf0PCPfrAkREPq7AvOBcHXcDJ1WPUwgKLfXH+QIgJlB9x5CIdEcjfugGboS3qm3Fcudjt2l60RK8fOJly/3t+B5RLOwdYbuilfR8xtHguie5+u6moGa6lzFHbU0gW5Qq9XbHPatix3WHUM1Y8LSoE0cWdPGNPcNCxqorct79qYe7Iah5e8KzK44zaiJI3uGVOSP/QPAdKtUlWt9Io3IWsbsxIFwWqMw/f9aeD4BEiBLi3dZ6g6QJHFi74yd0+Od0SB2j/MpIQ==^$IWGGhK7l1JLy2vnX3ga0scNH7P5qXUkZQ30KdORL/lOibbJ9K5YzIRlsZeuBPTT9DG65PnJOeebENaRwwNxJYl3dRZGhYr1sKnEoTB0SN0bkBfEHfFIIqRX3ZBwTNHNqHKgFrYbk13R/cLwE2SEQeT81YMav/LjnbKKbTS9wDvl3//XfOJAcG04dET4D6pPsNzvwSW6aw/tCdbbe22MVNP5aJOi31bC64oig1EuGTafBqnmWNeM0UCAdZXsamd/vmkiC4GMhe2YwUD55T8M6T19CZsCtPB3D5KuNqtG7Qt1s4EX4ZmhURKMsBvNQ9DKFCn/9kv3iay16SOjHI9psLNiH/zrAcCjZHkNdPwknNXy2tXPmMhbxIflv6roAIMl2No3mkA/2jIX0SoLtrj6Pz/ro6v7jiCZ+R4wrsLr/UeGcZjqnXtebq24f3zeE7kMIom3++q/ItNm37J+whlQkxZei4M1dyK4d1/dNavaTCyKA2kk0+pM8yaSt+t8kns8sxE8M2D3dPFlWNkHm9sVILn7IbiZM9EyXJrSZ9u7U^\^",^\^"encryptedExpiryYear^\^":^\^"adyenjs_0_1_25^$kYTf08MxAPuPn1lxT7NuBIVvRCdd3/MIciz1McddTW8rLSHfQCjNzPGCk9QmorQkca5gfVZmJcyr6N3x9v0HjSOaW8s99y1CHmHgBxtrAqmX3hrL8ldKod55jcIHbwclLe+kfYBqqYdHvHQC20cw44py+rHmDIEPleD/xqJeSGdrHjdMcEEtHeYmxsKThB8JrW1WirKtDk7EOxa41m4IQJuPQzFxekImTSAGs1Cb6cv9zaIQTLyzXQO9bxdNlUZiBje4lRw97N8pcqs3kdla+KYTLiqY4Lv1jJDadV18YCoexKJMhVRB6DD9wFEKpj1vcs6UIws8icMqxqhoSRN9JQ==^$+Mc+290o5Q5ncceZtjOkn8ZFhEoNlnZ6HpojKnjw5xu8VRlQwGTnZv5KDBJ7X6uHIRUoTDuen9Yh/uGnSsv9idbboDKfWSWTIm/mrapHrvN5b8zTSPMvgZ4N/Gg/XXEcshPcrN1LWUp/lm+rPbsOLc7ytRnnWFf3LHdJkuOW4Z8mnOcGn3j60JcbvjmHznatUnGhJPpdZK7PjDGrEOQ5pRftxpyRXn80ssKKulnWEiDUe6b3UXTnPx5T1hb2HHPFq4mHLWL1uYgXm1a7bqS5TOzifxQP3Q3TBf4BDu2yiovVafWFLNxS1gpfWS7/C2z3ReNbI5ZvOkWLKSyZcJ/JBiUZ9u3qFNP96KeYMAzJiwNn9//jmi5tPskOLnqcbCoZCQYJPvSNLsrVrLXX93OwupFfAQ/rYUS91gcIjQtwtKJrwlPgggPvCxfUXfOgd0k5gmyj2fIsiZQCoDMrZxJVFkXSDhPJ3xCqTv1RjBrq+FSGTkyHGisSxy1JgICltMQgfthzBuYRDFbUN6Wq/4w=^\^",^\^"encryptedSecurityCode^\^":^\^"adyenjs_0_1_25^$E/qSGPVxZjgbSeRaLHChQu24/J6greNdVx5L5JNyJL60Cze6a3PD2pzS1OLJBotojjV8YksLq9jnYhyakvPDjIj32kpx6UaFPs/9nkX+ujKzSOWc/5qxePFEZEMK3Uac/latcOwvK8FrC3HxcPkGt4izRyTiL+fWEBD2VLA/FURrd+iLW/yZS6bL2smAcRfgUl7ODSgTWtBRgv3xedMFIQCuW5eQUSdORsI0vHxP20NOf7pEIWw2UTvBzTJpapSKk1wtPjb54VSjVVRj5NchcIrBrCooI+I6Ue/M/LJlxnXQevrXlM0ot1WawH0b0rN+WZQ1vJW+EI2eIUl2ltJaAg==^$Bx+47betvzQfyZfAkPyX2YKJdSpn7oyLEzOr9EgOXPEvB/+8sFoGiS5FbUy/cNcVJ4Yr2h1h1/+37UAiwtHq5ySv04dVQELSHSMwIVwSwcLSKZJFkMED9F1bJIeClK4hPKGylUXloKr63D9I2IXNS1r+yOKCG8tH9YBAWsCEXoB4jLpBZl9U2ebV2CsHuxZEAu1aCeBGqARsbgeBniF6RwkK0I7XbWTNqdGo8Q3xN+5994ovzkiPBdSnPMs7tzdewTsBAhDkgNyYXQHzm/q+DkQ53yXE4UtQbMY5XJ81Ws5cH0ZrUUxTajgF+Pzjb29lC1olD0U1DkSGgSw5mxyEVGaePJPt9azhP9aYKTvc3dLtUifnEotG7/BA7nJtOSrNznSRAWLeKSk+ByiUYL/x6j7Zq+++9cTDRbovrEtfrGwBdTA5tzBIuFxlonb2u/z8dJYGfcnD4hcK9TfvbaH1Em1/BnfuhobWp1KCL7PbKshekHD20WZfo2Kb0AYYw7UqydfCEUYJ780xf9kow2H5nILeLCXfQtUBA8BcNI9skXKcUUZZv0+PqyG6k/JHiemeLljQjuJZvkO9uK6mnh7rfBHK4zzc7uy/uOIlpbxN9InimYCiWGP9HMYKm6/g2354vURoH06z7Ptlat86E1cJrV9/SOkMfOUspizRKRMaQDbOZbJeL7V/Nd5xfUaK0UsPG5JfzMA=^\^",^\^"savePayment^\^":false^},^\^"browserInfo^\^":^{^\^"screenWidth^\^":1280,^\^"screenHeight^\^":720,^\^"colorDepth^\^":24,^\^"userAgent^\^":^\^"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^\^",^\^"timeZoneOffset^\^":-300,^\^"language^\^":^\^"en-US^\^",^\^"javaEnabled^\^":false^}^},^\^"isNoChargeOrder^\^":false,^\^"checkoutType^\^":^\^"NORMAL^\^",^\^"optIn^\^":false,^\^"preferredLanguage^\^":^\^"en^\^",^\^"deviceId^\^":^\^"0400JapG4txqVP4Nf94lis1ztrjQCvk297SBnrp/XmcfWoVVgr+Rt2dAZIo7BJIRIWDNtjiuvPP9Vk+xH1ZPRIwM6njw/ujAyYdbGKZt5JLThTvosS1xgSAgNfLEMokGoGJxIpJQceGZLcTqO5p/HMDt0NJy1Hqg++hz8cFCb3XpK0LXm0XBtvk2RW2s0fO33l4+Bez6hBBzrS2usa2jjh0Vn+TQHjy7H5XhLHCHAGY3J0jpLqVrSVzsI1LB6M5fl2EoMEAoEitEttFUo1DRkUtPGHCtTdexIPlakTvlqBdC12PmY1XpDGBtyepPcth3j49F3vr4FyGz8ZrLkeumT0l1qKk4QS50LzWv2WNttzix54G9AG5EKyyelIhqS8vD7Jc++jNzhd/4tBrb8RzWdzZK4RpNGfQbU0JlfhyrSbxA8f904hiAcL/dBjV9nBJW1Y3JLACqjtcRnAv1MFEpOxkzsuowfmZjGrzu0rdKBra3m4YVGh9WtSxpbBHqgN9OkpggoMD9XDPorgHHvJpxYj49Isz2eC9mY+3V/EGx34qxFULgmbZgsqvwg6LE8yqMVQun0jxRYAmjKb1P4ehBV15lxNOUpZuCoxYITZ3RrlK1VsRAR27Zdi+vjqJygRQgGX10lcABhHdx+C9adQeFciREmxon5LNRz/xMQ4JudHOlf1KSnrbJSNyIsWB9R+WFa6fdxifyrThRovESnjwNVGXSgGQ8InPsuf6/kpMgG84gzO5PMQF00uJew9XqxzJ4y+q4G69c8FCMwASZ/9+Ws4BrKUzI+mPNi65X5WFPYlDG9N0Lbh5nOj3u3DXqRCiKCUrsEkMt8z9fxO9pLLGVQUKIYR2wTw53CiWK96FOpPevDWtH2XR0QkfOd02D73n81x6hEMCy0s3hRLn08Th9FlNHDMJBqLj+Tz8r0O/E9ABp/9csPiZXdNCqfONp5tr3JJKOUynO7lvNGhMGpUeravdrC210e8OGrrVGB8n/NyT5AQJEWh+JVbpQPIEYDfmfBwBYRhc3f5urJ1YLXJ1OaRXpIgfJ/zck+QECRFofiVW6UDyBGA35nwcAWEYXN3+bqydWC1ydTmkV6SIHyf83JPkBAqiTs+2AlqEf5sdrzcINkHo48k1mv0Hq6NBmqdz2uSs1ESxFW2765zjH7VQfdFizUZfeSWusexIxhQkOrAp1/ZCWt3N41ZXaBA==^\^"^}^"
+
+
+
+
+
+in real card infois this
+
+Card Number (PAN)
+4224 5715 9520 3359   
+Expiration date MM/YY
+07/29
+Arden Volkman
+ 697
+CVV / CVC

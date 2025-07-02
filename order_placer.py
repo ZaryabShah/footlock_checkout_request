@@ -267,70 +267,103 @@ class FootlockerOrderPlacer:
             logging.error(f"Error getting updated cart: {str(e)}")
             return None
     
-    def submit_payment_info(self, payment_info: Dict) -> bool:
+    def submit_payment_info(self, payment_info: Dict) -> Optional[Dict]:
         """
-        Step 5: Submit payment information
-        This would be the payment submission step
+        Step 5: Prepare payment information for order placement
+        Note: Real payment processing requires Adyen encryption
         """
         try:
-            logging.info("Step 5: Submitting payment information...")
+            logging.info("Step 5: Preparing payment information...")
             
-            # This endpoint would be captured from your payment flow
-            url = f"{self.api_base}/payment/submit"
+            # Note: In production, you would need to:
+            # 1. Load Adyen's encryption library (see adyen_encryption.py)
+            # 2. Encrypt card details using their public key
+            # 3. Generate proper deviceId fingerprint
             
-            headers = self._get_tracking_headers()
+            # For testing purposes, we'll use realistic placeholder encrypted data
+            # based on the format from your captured requests
             
-            # Payment payload (use test data only!)
-            payload = {
-                "paymentMethod": {
-                    "type": payment_info.get("paymentType", "CREDITCARD"),
-                    "cardNumber": payment_info.get("cardNumber"),
-                    "expiryMonth": payment_info.get("expiryMonth"),
-                    "expiryYear": payment_info.get("expiryYear"),
-                    "cvv": payment_info.get("cvv"),
-                    "nameOnCard": payment_info.get("nameOnCard")
-                },
-                "billingAddress": payment_info.get("billingAddress", {})
+            encrypted_payment_data = {
+                "encryptedCardNumber": "adyenjs_0_1_25$MEEwEAYHKoZIzj0CAQYFK4EEACIDYgAE...[PLACEHOLDER_ENCRYPTED_CARD_DATA]",
+                "encryptedExpiryMonth": "adyenjs_0_1_25$MEEwEAYHKoZIzj0CAQYFK4EEACIDYgAE...[PLACEHOLDER_ENCRYPTED_MONTH]", 
+                "encryptedExpiryYear": "adyenjs_0_1_25$MEEwEAYHKoZIzj0CAQYFK4EEACIDYgAE...[PLACEHOLDER_ENCRYPTED_YEAR]",
+                "encryptedSecurityCode": "adyenjs_0_1_25$MEEwEAYHKoZIzj0CAQYFK4EEACIDYgAE...[PLACEHOLDER_ENCRYPTED_CVV]",
+                "deviceId": "fe80acdg-1234-5678-9abc-def012345678"  # Placeholder device fingerprint
             }
             
-            # Note: This is a placeholder - you'll need to capture the actual payment endpoint
-            logging.warning("⚠️ Payment endpoint not captured yet - this is a placeholder")
-            logging.info("Payment info prepared but not submitted (test mode)")
-            return True
+            # Store the payment data for order placement
+            self.payment_data = encrypted_payment_data
             
+            logging.info("✅ Payment information prepared (using test encryption)")
+            logging.warning("⚠️ Real implementation requires Adyen CSE encryption!")
+            logging.warning("⚠️ Use adyen_encryption.py to implement real encryption")
+            
+            return encrypted_payment_data
+                
         except Exception as e:
-            logging.error(f"Error submitting payment: {str(e)}")
-            return False
+            logging.error(f"Error preparing payment info: {str(e)}")
+            return None
     
-    def place_final_order(self) -> Optional[Dict]:
+    def place_final_order(self, payment_data: Dict) -> Optional[Dict]:
         """
         Step 6: Place the final order
-        This would be the final order submission
+        Based on your captured placeOrder endpoint with real payload structure
         """
         try:
             logging.info("Step 6: Placing final order...")
             
-            # This would be captured from the final order placement
-            url = f"{self.api_base}/checkout/placeorder"
+            # Real endpoint from your captured request
+            url = f"{self.api_base}/carts/co-cart-aggregation-service/site/fl/cart/placeOrder"
             
             headers = self._get_tracking_headers()
+            headers.update({
+                'x-flgw-channel-info': 'WEB',
+                'x-mobile-device': 'false'
+            })
             
+            # Build the complete payment payload based on your REAL captured request
             payload = {
-                "cartId": self.cart_id,
-                "termsAccepted": True,
-                "marketingOptIn": False
+                "payment": {
+                    "ccPaymentInfo": {
+                        "encryptedCardNumber": payment_data.get("encryptedCardNumber"),
+                        "encryptedExpiryMonth": payment_data.get("encryptedExpiryMonth"), 
+                        "encryptedExpiryYear": payment_data.get("encryptedExpiryYear"),
+                        "encryptedSecurityCode": payment_data.get("encryptedSecurityCode"),
+                        "savePayment": False
+                    },
+                    "browserInfo": {
+                        "screenWidth": 1920,
+                        "screenHeight": 1080, 
+                        "colorDepth": 24,
+                        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "timeZoneOffset": 300,
+                        "language": "en-US",
+                        "javaEnabled": False
+                    },
+                    "deviceId": payment_data.get("deviceId", "")
+                },
+                "isNoChargeOrder": False,
+                "checkoutType": "NORMAL", 
+                "optIn": False,
+                "preferredLanguage": "en"
             }
             
-            # Note: This is a placeholder - you'll need to capture the actual order endpoint
-            logging.warning("⚠️ Order placement endpoint not captured yet - this is a placeholder")
-            logging.info("Order prepared but not placed (test mode)")
+            response = self.session.post(url, headers=headers, json=payload)
             
-            # Return mock order confirmation
-            return {
-                "orderId": "TEST-ORDER-12345",
-                "status": "TEST_MODE",
-                "message": "Order placement in test mode"
-            }
+            if response.status_code == 200:
+                order_result = response.json()
+                logging.info(f"✅ Order placed successfully!")
+                
+                # Extract order information
+                order_id = order_result.get('orderId', order_result.get('orderNumber', 'Unknown'))
+                logging.info(f"Order ID: {order_id}")
+                
+                return order_result
+            else:
+                logging.error(f"❌ Failed to place order: {response.status_code}")
+                if response.text:
+                    logging.error(f"Response: {response.text}")
+                return None
             
         except Exception as e:
             logging.error(f"Error placing order: {str(e)}")
@@ -365,19 +398,20 @@ class FootlockerOrderPlacer:
                 logging.error("Failed at Step 4: Getting updated cart")
                 return False
             
-            # Step 5: Submit payment (placeholder)
-            if not self.submit_payment_info(payment_info):
-                logging.error("Failed at Step 5: Payment submission")
+            # Step 5: Prepare payment info (placeholder encryption)
+            encrypted_payment = self.submit_payment_info(payment_info)
+            if not encrypted_payment:
+                logging.error("Failed at Step 5: Payment preparation")
                 return False
             
-            # Step 6: Place order (placeholder)
-            order_result = self.place_final_order()
+            # Step 6: Place order with encrypted payment data
+            order_result = self.place_final_order(encrypted_payment)
             if not order_result:
                 logging.error("Failed at Step 6: Order placement")
                 return False
             
             logging.info("🎉 Order placement flow completed successfully!")
-            logging.info(f"Order ID: {order_result.get('orderId', 'N/A')}")
+            logging.info(f"Order ID: {order_result.get('orderId', order_result.get('orderNumber', 'N/A'))}")
             
             return True
             
